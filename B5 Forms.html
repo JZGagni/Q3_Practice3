@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)file:///C:/Users/HP/ICT3rdQtr__Gagni_Jyden.html? -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="./B5 Forms_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<title>B5 Forms</title>
+	<style>
+	body {
+		background-color: aliceblue;
+	}
+	.container {
+		background-color: skyblue;
+		padding: 10px;
+	}
+	</style>
+</head>
+<body>
+
+<div class="container mt-3">
+	<h2>Creating a Vertical Form Layout</h2>
+
+	<form>
+	    <div class="email mb-3"> 
+	        <label for="inputEmail">Email</label>
+	        <input type="email" id="inputEmail" placeholder="Email">
+	    </div>
+
+	    <div class="password mb-3"> 
+	        <label for="inputPassword">Password</label>
+	        <input type="password" id="inputPassword" placeholder="Password">
+	    </div>
+
+	    <div>
+	        <div class="remember mb-3">
+	            <input type="checkbox" id="checkRemember">
+	            <label for="checkRemember">Remember me</label>
+	        </div>
+	    </div>
+	    <button type="submit" class="btn btn-primary">Sign in</button>
+	</form>
+</div>
+
+<div class="container mt-3">
+	<h2>Creating a Horizontal Form Layout</h2>
+
+	<form>
+	    <div class="row email mb-3"> 
+	        <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+	        <div class="col-sm-10">
+	        	<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+	    	</div>
+	    </div>
+
+	    <div class="row password mb-3"> 
+	        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+	        <div class="col-sm-10">
+	       		<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+	    	</div>
+	    </div>
+
+	    <div class="row remember mb-3">
+	        <div class="col-sm-10 offset-sm-2">
+	            <input type="checkbox" id="checkRemember">
+	            <label for="checkRemember">Remember me</label>  
+	        </div>
+	    </div>
+	    
+	    <div class="row">
+	    	<div class="col-sm-10 offset-sm-2">
+	    		<button type="submit" class="btn btn-primary">Sign in</button>
+	    	</div>
+	    </div>
+	</form>
+</div>
+
+<div class="container mt-3">
+	<h2>Creating a Inline Form Layout</h2>
+
+	<form>
+	    <div class="row align-items-center g-3">
+	    	<div class="col-auto">
+	    	<label class="visually-hidden" for="inputEmail">Email</label>
+	        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+	    </div>
+
+	    <div class="col-auto"> 
+	        <label class="visually-hidden" for="inputPassword">Password</label>
+	        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+	    </div>
+
+	    <div>
+	    	<div class="col-auto">
+	            <input type="form-check" id="checkRemember">
+	            <label class="form-check-label" for="checkRemember">Remember me</label>
+	        </div>
+	    </div>
+	    <div class="col-auto">
+	    <button type="submit" class="btn btn-primary">Sign in</button>
+	
+</div>
+</div></form></div></body></html>
